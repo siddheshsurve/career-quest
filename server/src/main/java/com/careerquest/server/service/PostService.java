@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface PostService {
 
-    public List<PostModel> getAllPosts();
-
     public PostModel savePost(PostDTO post);
+
+    public List<PostModel> getAllPosts();
 }
